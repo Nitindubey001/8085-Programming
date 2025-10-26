@@ -1,33 +1,44 @@
-# 8085 Assembly Language Programs
+# ⚙️ 8085 Assembly Language Programs
 
 Welcome to my **8085 Microprocessor Assembly Programs** repository!  
-This repository contains programs ranging from **basic to advanced level**, created mainly for **practice and tracking purposes**.  
-Beginners can also use it as a reference to learn 8085 programming step by step.
+This repository contains **16 well-structured 8085 programs** covering arithmetic, logical, looping, data transfer, and conversion operations.  
+It’s built mainly for **practice and learning**, with clear file organization and simplicity for beginners.
 
 ---
 
-## 📂 Contents
+## 📘 Program List
 
-### **1. Basic Programs**
-- Data Transfer Instructions
-- Addition & Subtraction
-- Increment & Decrement
-- Logical Operations (AND, OR, XOR, NOT)
-- Rotate Instructions
+### 🔢 **Arithmetic & Mathematical Operations**
+| No. | Program Name | File Name |
+|-----|---------------|-----------|
+| 1 | Addition & Subtraction of Two Numbers | `add_sub.asm` |
+| 2 | Increment and Decrement of a Number | `inc_dec.asm` |
+| 3 | Multiplication Using Repeated Addition | `multiply.asm` |
+| 4 | Division Using Repeated Subtraction | `divide.asm` |
+| 5 | Factorial of a Number | `factorial.asm` |
 
-### **2. Intermediate Programs**
-- Multiplication & Division (using repeated addition/subtraction)
-- Sorting (Ascending/Descending)
-- Searching (Linear & Binary Search)
-- Block Transfer of Data
-- Stack Operations (PUSH, POP)
+---
 
-### **3. Advanced Programs**
-- Factorial of a Number
-- Fibonacci Series
-- BCD ↔ Binary Conversion
-- Hex to Decimal Conversion
-- Interrupt-driven Routines
+### 🧠 **Logical & Comparison Operations**
+| No. | Program Name | File Name |
+|-----|---------------|-----------|
+| 6 | Logical Operations (AND, OR, XOR, NOT) | `logic_ops.asm` |
+| 7 | Compare Two Numbers and Display Result | `compare.asm` |
+| 8 | Rotate Accumulator Left and Right | `rotate_acc.asm` |
+| 9 | Check if Number is Even or Odd | `even_odd.asm` |
+| 10 | Find Largest and Smallest Number in Array | `max_min.asm` |
+
+---
+
+### 💾 **Data Handling & Looping Programs**
+| No. | Program Name | File Name |
+|-----|---------------|-----------|
+| 11 | Transfer a Block of Data | `block_transfer.asm` |
+| 12 | Reverse a Block of Data | `reverse_block.asm` |
+| 13 | Sort Numbers in Ascending Order | `sort_asc.asm` |
+| 14 | Search an Element (Linear Search) | `search_linear.asm` |
+| 15 | Generate Fibonacci Series | `fibonacci.asm` |
+| 16 | Interrupt-Driven I/O Routine | `interrupt_io.asm` |
 
 ---
 
